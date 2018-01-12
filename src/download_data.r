@@ -1,5 +1,5 @@
 library(RCurl)
-PSDS_PATH <- file.path('~', 'statistics-for-data-scientists')
+PSDS_PATH <- file.path(getwd())
 
 download_from_google_drive <- function(id, fname, path)
 {
